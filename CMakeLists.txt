@@ -14,4 +14,4 @@ file(GLOB SOURCES "src/*.cpp")
 
 # 生成可执行文件
 add_executable(havana_db src/main.cpp)
-add_executable(havana_bench src/benchmark.cpp)
+# add_executable(havana_bench src/benchmark.cpp)
