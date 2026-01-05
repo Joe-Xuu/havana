@@ -13,4 +13,5 @@ include_directories(include)
 file(GLOB SOURCES "src/*.cpp")
 
 # 生成可执行文件
-add_executable(havana_db ${SOURCES})
+add_executable(havana_db src/main.cpp)
+add_executable(havana_bench src/benchmark.cpp)
