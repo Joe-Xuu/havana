@@ -8,7 +8,7 @@
 
 HavanaDB is a prototype database engine designed to explore modern database architecture concepts found in systems like SAP HANA and Silo. It features a lock-free insert-only architecture, chunked memory management, and a hybrid aggregation model suitable for high-concurrency OLAP/OLTP mixed workloads.
 
-## 🚀 Key Features
+## Key Features
 
 * **Column-Oriented Storage:** Optimized for analytical queries and cache locality.
 * **Lock-Free Writes:** Uses `std::atomic` cursors for wait-free memory reservation.
